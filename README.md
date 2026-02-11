@@ -1,4 +1,4 @@
-# [bitcoincore.org](https://bitcoincore.org)
+⁹# [bitcoincore.org](https://bitcoincore.org)
 
 This repository is the source code of the Bitcoin Core project website built with Jekyll.
 
