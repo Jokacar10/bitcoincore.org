@@ -15,6 +15,9 @@ en:
   releases:
     title: "releases"
     url:   "/en/releases/"
+  security-advisories:
+    title: "Security Advisories"
+    url:   "/en/security-advisories/"
   dev:
     title: "Development"
     submenu: true
@@ -31,9 +34,6 @@ en:
       eol:
         title: "Lifecycle"
         url:   "/en/lifecycle"
-      security-advisories:
-        title: "Security Advisories"
-        url:   "/en/security-advisories/"
   contact:
     title: "Contact"
     submenu: true
@@ -45,7 +45,7 @@ en:
         title: "Announcements"
         url: "/en/list/announcements/join/"
       twitter_impersonation:
-        title: "Twitter impersonation"
+        title: "X impersonation"
         url: "/en/twitter-impersonation"
 zh_CN:
   home:
@@ -60,6 +60,9 @@ zh_CN:
   releases:
     title: "软件发行"
     url:   "/zh_CN/releases/"
+  security-advisories:
+    title: "Security Advisories"
+    url:   "/en/security-advisories/"
   dev:
     title: "开发"
     submenu: true
@@ -79,9 +82,6 @@ zh_CN:
       eol:
         title: "生命周期"
         url:   "/zh_CN/lifecycle/"
-      security-advisories:
-        title: "Security Advisories"
-        url:   "/en/security-advisories/"
   contact:
     title: "联系"
     submenu: true
@@ -105,6 +105,9 @@ zh_TW:
   releases:
     title: "軟件發行"
     url:   "/zh_TW/releases/"
+  security-advisories:
+    title: "Security Advisories"
+    url:   "/en/security-advisories/"
   dev:
     title: "Development"
     submenu: true
@@ -121,9 +124,6 @@ zh_TW:
       eol:
         title: "Lifecycle"
         url:   "/en/lifecycle/"
-      security-advisories:
-        title: "Security Advisories"
-        url:   "/en/security-advisories/"
   contact:
     title: "Contact"
     submenu: true
@@ -150,6 +150,9 @@ ja:
   releases:
     title: "リリース"
     url:   "/ja/releases/"
+  security-advisories:
+    title: "セキュリティアドバイザリ"
+    url:   "/ja/security-advisories/"
   dev:
     title: "開発"
     submenu: true
@@ -166,9 +169,6 @@ ja:
       eol:
         title: "ライフサイクル"
         url:   "/ja/lifecycle"
-      security-advisories:
-        title: "セキュリティアドバイザリ"
-        url:   "/ja/security-advisories/"
   contact:
     title: "コンタクト"
     submenu: true
@@ -180,7 +180,7 @@ ja:
         title: "お知らせ"
         url: "/ja/list/announcements/join/"
       twitter_impersonation:
-        title: "Twitterのなりすまし"
+        title: "Xのなりすまし"
         url: "/ja/twitter-impersonation"
 es:
   home:
@@ -198,6 +198,9 @@ es:
   releases:
     title: "Versiones"
     url:   "/es/releases/"
+  security-advisories:
+    title: "Security Advisories"
+    url:   "/en/security-advisories/"
   dev:
     title: "Development"  # XXX
     submenu: true
@@ -209,14 +212,11 @@ es:
         title: "contributing code"  # XXX
         url:   "/en/faq/contributing-code/"  # XXX
       meetings:
-        title: "meetings"  # XXX
-        url:   "/en/meetings/"  # XXX
+        title: "reuniones"
+        url:   "/es/meetings/"
       eol:
         title: "Lifecycle"  # XXX
         url:   "/en/lifecycle"  # XXX
-      security-advisories:
-        title: "Security Advisories"
-        url:   "/en/security-advisories/"
   contact:
     title: "Contact"  # XXX
     submenu: true
@@ -228,5 +228,53 @@ es:
         title: "Announcements"  # XXX
         url: "/en/list/announcements/join/"  # XXX
       twitter_impersonation:
-        title: "Twitter impersonation"  # XXX
+        title: "X impersonation"  # XXX
+        url: "/en/twitter-impersonation"  # XXX
+pt_BR:
+  home:
+    title: "Bitcoin Core"
+    url:   "/pt_BR/"
+  about:
+    title: "Sobre"
+    url:   "/pt_BR/about/"
+  download:
+    title: "Download"  # XXX
+    url: "/en/download"  # XXX
+  blog:
+    title: "Blog"  # XXX
+    url:   "/en/blog/"  # XXX
+  releases:
+    title: "Versões"  # XXX
+    url:   "/en/releases/"  # XXX
+  security-advisories:
+    title: "Avisos de segurança"  # XXX
+    url:   "/en/security-advisories/"  # XXX
+  dev:
+    title: "Desenvolvimento"  # XXX
+    submenu: true
+    tree:
+      contribute:
+        title: "contribuir"  # XXX
+        url:   "/en/contribute/"  # XXX
+      contribute-code:
+        title: "contribuir com código"  # XXX
+        url:   "/en/faq/contributing-code/"  # XXX
+      meetings:
+        title: "reuniões"  # XXX
+        url:   "/en/meetings/"  # XXX
+      eol:
+        title: "Ciclo de vida"  # XXX
+        url:   "/en/lifecycle"  # XXX
+  contact:
+    title: "Contato"  # XXX
+    submenu: true
+    tree:
+      contact_us:
+        title: "Fale conosco"  # XXX
+        url: "/en/contact/"  # XXX
+      announcements:
+        title: "Comunicados"  # XXX
+        url: "/en/list/announcements/join/"  # XXX
+      twitter_impersonation:
+        title: "Perfis falsos no X"  # XXX
         url: "/en/twitter-impersonation"  # XXX

@@ -8,8 +8,8 @@ ruby '3.1.2'
 
 ## If you add a new Gem below, run `bundle install` to install it.
 group :development do
-  gem 'jekyll'
-  gem 'jekyll-redirect-from'
+  gem 'jekyll', '>= 4.3.4'
+  gem 'jekyll-redirect-from', '>= 0.17.0'
   gem 'kramdown-parser-gfm'
 end
 
